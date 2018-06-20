@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.svpm</groupId>
+  <artifactId>aspectj-config-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <packaging>jar</packaging>
+  
+  <name>aspectj-config-manager</name>
+  <description>Definitions of all aspects and pointcuts</description>
+
+
+<dependencies>
+	<dependency>
+		  <groupId>com.svpm</groupId>
+		  <artifactId>framework</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+		
+	</dependency>
+
+	<dependency>
+	    <groupId>org.aspectj</groupId>
+	    <artifactId>aspectjrt</artifactId>
+	    <version>1.8.10</version>
+	</dependency>
+	
+</dependencies>
+
+
+
+</project>
